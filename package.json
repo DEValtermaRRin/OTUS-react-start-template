@@ -11,7 +11,8 @@
     "test": "jest src",
     "lint": "eslint src --fix",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "license": "MIT",
   "devDependencies": {
